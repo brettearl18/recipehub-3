@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
-import { UserIcon, UsersIcon, BookOpenIcon, ChartBarIcon, Cog6ToothIcon, LifebuoyIcon, HomeIcon, BellIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { UserIcon, UsersIcon, BookOpenIcon, ChartBarIcon, Cog6ToothIcon, LifebuoyIcon, HomeIcon, BellIcon, MagnifyingGlassIcon, Squares2X2Icon } from '@heroicons/react/24/outline';
 
 const navLinks = [
   { label: 'Dashboard', href: '/admin', icon: HomeIcon },
   { label: 'Users', href: '/admin/users', icon: UsersIcon },
   { label: 'Recipes', href: '/admin/recipes', icon: BookOpenIcon },
+  { label: 'Recipe Dashboard 2', href: '/admin/recipe2', icon: Squares2X2Icon },
   { label: 'Meal Plans', href: '/admin/meal-plans', icon: BookOpenIcon },
   { label: 'Analytics', href: '/admin/analytics', icon: ChartBarIcon },
   { label: 'Settings', href: '/admin/settings', icon: Cog6ToothIcon },
